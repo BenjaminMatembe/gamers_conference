@@ -1,3 +1,319 @@
-*{
-    font-family: 'Courier New', Courier, monospace;
+/* variables */
+:root {
+  --orange: #ec5242;
+  --black: #272a31;
+  --gray: #d3d3d3;
 }
+
+* {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.fullContent {
+  width: 100vw;
+  height: 75vh;
+  background-image: url(./images/headerwhite-technology-background_52683-31443.webp);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.wrapping_content {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(206, 209, 210, 0.054);
+  filter: blur(0.5px);
+}
+
+.navbar {
+    /* font-size: 100px; */
+    /* background-color: red; */
+    width: 100%;
+    height: 10%;
+    /* width: 70px; */
+    /* height: 70px; */
+}
+.heading{
+    color: var(--orange);
+    /* background-color: green; */
+    height: auto;
+}
+.heading p{
+    font-size: 24px;
+    margin-left: 12px;
+}
+
+.heading h1{
+    font-size: 43px;
+    /* line-height: 45px; */
+    margin-left: 12px;
+}
+
+.description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(243, 238, 238);
+    background-color:rgb(218, 216, 216);
+    margin: 30px 10px 0px 10px;
+    line-height: 18px;
+    font-size: 13px;
+}
+.description p{
+    margin: 20px;
+    color: rgb(51, 47, 47);
+}
+
+.date{
+    margin: 20px 10px 0px 12px;
+}
+
+.handle{
+    display: inline-block;
+    margin-top: 10px;
+    /* color: rgb(42, 43, 43); */
+    /* background-color: red; */
+    /* color: red; */
+}
+
+.agenda{
+    /* background-color: red; */
+    background-image: url(./images/black.avif);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.articleContainer{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    gap: 2px;
+}
+.content_cards{
+    background-color: green;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    padding:10px 0;
+    /* margin:  10px; */
+    /* justify-content: center; */
+    /* margin: 2px; */
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+    width: 15%;
+    height: 70%;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    width: 20%;
+    height: auto;
+    /* text-align: center; */
+}
+
+.para{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    height: 70%;
+    width: 50%;
+}
+
+.join_button{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.join{
+    
+    background-color: var(--orange);
+    border: none;
+    outline: none;
+    margin-top: 40px;
+    padding: 20px;
+    color: white;
+}
+
+.agenda header{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+
+
+    
+}
+
+.agenda header div{
+    border-bottom: 1px solid #ec5242;
+    width: 40px;
+    margin-top: 5px;
+}
+
+.speakersPara{
+    /* color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    /* background-color: red; */
+    height: 80px;
+}
+.speakersPara div{
+    width: 35px;
+    border-bottom: 1px solid #ec5242;
+    margin-top: 7px;
+}
+
+.speakers{
+    background-color: red;
+}
+
+.speakers article{
+    background-color: green;
+    margin: 3px;
+    display: flex;
+}
+
+.image{
+    background-color: orange;
+    width: 30%;
+}
+
+.details{
+    background-color: aqua;
+    width: 70%;
+}
+
+.more{
+    width: 100%;
+    height: 40px;
+}
+
+
+/* about us css */
+
+.aboutHeading{
+    color: var(--orange);
+    /* background-color: green; */
+    text-align: center;
+    height: auto;
+    margin: 7px;
+}
+
+.aboutHeading p{
+    font-size: 24px;
+    /* margin-left: 12px; */
+}
+
+.aboutHeading h1{
+    font-size: 43px;
+    /* line-height: 45px; */
+    /* margin-left: 12px; */
+}
+
+.descriptionAbout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(243, 238, 238);
+    background-color:rgb(251, 250, 250);
+    margin: 30px 10px 0px 10px;
+    line-height: 18px;
+    font-size: 16px;
+    text-align: center;
+}
+.descriptionAbout p{
+    margin: 20px;
+    color: rgb(51, 47, 47);
+    padding: 20px;
+}
+
+
+.fullContentAbout {
+    width: 100vw;
+    height: 75vh;
+    background-image: url(./images/headerwhite-technology-background_52683-31443.webp);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  .aboutContact{
+    text-align: center;
+    margin: 24px;
+    font-size: 13px;
+    line-height: 24px;
+  }
+
+  .aboutContact span{
+    text-decoration: underline;
+  }
+
+  .logoAbout{
+    /* background-color: pink; */
+    padding-bottom: 20px;
+    margin:30px  50px 0 50px;
+    text-align: center;
+  }
+
+  .logoAbout h2{
+    font-size: 30px;
+  }
+
+  .logoAbout span{
+    display: inline-block;
+    border-bottom: 1px solid #ec5242;
+    width: 30px;
+    margin-top: 3px;
+
+  }
+
+  .logoDiv{
+    width: 90%;
+    height: 120px;
+    margin: 20px;
+    border: 1px solid rgb(211, 206, 206);
+    /* background-color: red; */
+  }
+
+  .pastSummits{
+    /* background-color: red; */
+    text-align: center;
+    margin: 20px;
+    height: 60vh;
+  }
+
+  .pastSummits div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    background-color: rgb(29, 27, 27);
+    margin: 2px;
+    height: 50%;
+    /* margin-bottom: 10px; */
+  }
+
+  .bottomAbout{
+    margin-top: 100px;
+    background-color: red;
+  }
