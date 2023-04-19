@@ -77,7 +77,8 @@
 
 
 <ul>
-    <li><a href="">Live Demo ......coming soon</a></li>
+    <li><a href="https://benjaminmatembe.github.io/Portfolio/">Live Demo</a></li>
+    <li><a href="https://www.loom.com/share/af978cc61bdd4706b6da3917ae768fb6">Loom Demo</a></li>
     
   </ul>
   
