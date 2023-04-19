@@ -1,0 +1,15 @@
+{
+  "name": "gamers_conference",
+  "version": "1.0.0",
+  "description": "- This gamers conference app allows you to expand your knowledge as a gamer and introduces you to new gaming ideas that you can integrate with your pre-known concepts and become better at many online games on various play stations.",
+  "main": "gamers.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.4"
+  }
+}
