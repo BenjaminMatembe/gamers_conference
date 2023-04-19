@@ -151,9 +151,15 @@ This project was deployed using github pages
 
 
 👤 **Benjamin**
+ *[Developer: Benjamin Matembe]*
 
 - GitHub: [@githubhandle](https://github.com/BenjaminMatembe)
 
+
+👤 **Cindy Shin**
+ *[Web-Designer: Cindy Shin in Behance]*
+ 
+ - Behance: (https://www.behance.net/adagio07)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
