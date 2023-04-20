@@ -87,6 +87,7 @@ more.addEventListener('click', () => {
     card.style.display = 'flex';
     more.style.display = 'none';
     less.style.display = 'block';
+    window.scrollTo(100, document.body.scrollHeight);
   });
 });
 

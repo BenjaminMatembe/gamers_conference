@@ -78,7 +78,7 @@
 
 .fullContent {
   width: 100vw;
-  height: 75vh;
+  height: 100vh;
   background-image: url(./images/headerwhite-technology-background_52683-31443.webp);
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -817,6 +817,6 @@ footer .right {
   }
 
   .fullContent {
-    height: 90vh;
+    height: 100vh;
   }
 }
