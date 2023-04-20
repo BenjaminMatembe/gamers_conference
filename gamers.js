@@ -76,3 +76,24 @@ for (let i = 0; i < speakers[0].name.length; i += 1) {
   </div>
 </article>`;
 }
+
+const mobileMore = document.querySelectorAll('.desktopArtical');
+
+const more = document.querySelector('.more');
+const less = document.querySelector('.less');
+
+more.addEventListener('click', () => {
+  mobileMore.forEach((card) => {
+    card.style.display = 'flex';
+    more.style.display = 'none';
+    less.style.display = 'block';
+  });
+});
+
+less.addEventListener('click', () => {
+  mobileMore.forEach((card) => {
+    card.style.display = 'none';
+    more.style.display = 'block';
+    less.style.display = 'none';
+  });
+});
